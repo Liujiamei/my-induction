@@ -52,7 +52,7 @@ html,body{
     font-size: .45rem;
     position: absolute;
     left: 1.25rem;
-    bottom: 5.99rem;
+    bottom: 3.99rem;
     text-align: center;
     /*opacity: 0;*/
     display: none;
@@ -401,22 +401,22 @@ html,body{
     display: none;
 }
 .slide6 .info{
-    font-size: .36rem;
+    font-size: .32rem;
     color: white;
     width: 4.0rem;
-    height: 6.6rem;
-    /*text-align: center;*/
+    height: 6rem;
+    /* text-align: center; */
     background: rgba(0,0,0,.3);
     border-radius: .3rem;
     padding: .5rem .7rem;
     position: absolute;
     left: 0.5rem;
-    top: 2rem;
+    top: 1.8rem;
     display: none;
 }
 .slide6 .info img{
     width: 4.6rem;
-    height: 7.6rem;
+    height: 7rem;
     position: absolute;
     left: .4rem;
     top: -.5rem;
