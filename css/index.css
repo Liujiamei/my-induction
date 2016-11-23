@@ -44,7 +44,7 @@ html,body{
     height: 4.21rem;
     position: absolute;
     left:0.24rem;
-    top:5.65rem;
+    top: 5.0rem;
 }
 .slide1 .slide1-font{
     width: 2.20rem;
@@ -52,7 +52,7 @@ html,body{
     font-size: .45rem;
     position: absolute;
     left: 1.25rem;
-    bottom: 2.99rem;
+    bottom: 5.99rem;
     text-align: center;
     /*opacity: 0;*/
     display: none;
@@ -169,73 +169,75 @@ html,body{
 }
 #page2 .con li:nth-of-type(1) span{
     opacity: 1;
-    transition: opacity .25s .5s;
+    transition: opacity .4s .5s;
     /*animation: lightSpeedIn .5s .5s ,rotateIn 1s .75s ;*/
-    animation: slideInLeft .25s .5s  ;
-    -webkit-animation: slideInLeft .25s .5s  ;
+    animation: slideInLeft .4s .5s  ;
+    -webkit-animation: slideInLeft .4s .5s  ;
 }
 #page2 .con li:nth-of-type(2) span{
     opacity: 1;
-    transition: opacity .25s 0.75s;
-    animation: slideInLeft .25s 0.75s ;
-    -webkit-animation: slideInLeft .25s 0.75s ;
+    transition: opacity .4s .9s;
+    animation: slideInLeft .4s .9s ;
+    -webkit-animation: slideInLeft .4s .9s ;
 }
 #page2 .con li:nth-of-type(3) span{
     opacity: 1;
-    transition: opacity .25s 1s;
-    animation: slideInLeft .25s 1s  ;
-    -webkit-animation: slideInLeft .25s 1s  ;
+    transition: opacity .4s 1.3s;
+    animation: slideInLeft .4s 1.3s  ;
+    -webkit-animation: slideInLeft .4s 1.3s  ;
 }
 #page2 .con li:nth-of-type(4) span{
     opacity: 1;
-    transition: opacity .25s 1.25s;
-    animation: slideInLeft .25s 1.25s  ;
-    -webkit-animation: slideInLeft .25s 1.25s  ;
+    transition: opacity .4s 1.7s;
+    animation: slideInLeft .4s 1.7s  ;
+    -webkit-animation: slideInLeft .4s 1.7s  ;
 }
 #page2 .con li:nth-of-type(5) span{
     opacity: 1;
-    transition: opacity .25s 1.5s;
-    animation: slideInLeft .25s  1.5s  ;
-    -webkit-animation: slideInLeft .25s  1.5s  ;
+    transition: opacity .4s 2.1s;
+    animation: slideInLeft .4s  2.1s  ;
+    -webkit-animation: slideInLeft .4s  2.1s  ;
 }
 /*3-技能水平*/
 .slide3 .skill{
     color: white;
     font-size: 0.56rem;
-    width:3.2rem;
-    height:1rem;
+    width: 3.2rem;
+    height: 1rem;
+    line-height: 0.9rem;
     text-align: center;
-    background: url('../img/icon00.png') no-repeat;
+    background: url(../img/icon00.png) no-repeat left center;
+    background-size: contain;
     position: absolute;
-    left:0;
-    top:.2rem;
+    left: 0;
+    top: .2rem;
     display: none;
 }
 .slide3 .info{
     width: 4.4rem;
-    height: 7rem;
+    height: 6.6rem;
     text-align: center;
     background: rgba(0,0,0,.3);
     border-radius: .3rem;
-    padding:.5rem;
+    padding: .5rem;
     position: absolute;
     left: 0.5rem;
-    top: 2rem;
+    top: 1.8rem;
     display: none;
 }
 .slide3 .info img{
     width: 4.6rem;
-    height: 8rem;
+    height: 7.6rem;
     position: absolute;
     left: .4rem;
-    top: -.5rem;
+    top: -.42rem;
     display: none;
 }
 .slide3 .info span{
     width: 4.4rem;
     height: 1.68rem;
     display: block;
-    font-size: .8rem;
+    font-size: .7rem;
     color: white;
 }
 #page3 .skill{
@@ -262,30 +264,32 @@ html,body{
 .slide4 .skill{
     color: white;
     font-size: 0.56rem;
-    width:3.2rem;
-    height:1rem;
+    width: 3.2rem;
+    height: 1rem;
+    line-height: 0.9rem;
     text-align: center;
-    background: url('../img/icon00.png') no-repeat;
+    background: url(../img/icon00.png) no-repeat left center;
+    background-size: contain;
     position: absolute;
-    left:0;
-    top:.2rem;
+    left: 0;
+    top: .2rem;
     display: none;
 }
 .slide4 .info{
     width: 4.4rem;
-    height: 7.6rem;
+    height: 6.6rem;
     text-align: center;
     background: rgba(0,0,0,.3);
     border-radius: .3rem;
-    padding:.5rem;
+    padding: .5rem;
     position: absolute;
     left: 0.5rem;
-    top: 2rem;
+    top: 1.8rem;
     display: none;
 }
 .slide4 .info img{
     width: 4.6rem;
-    height: 8.6rem;
+    height: 7.6rem;
     position: absolute;
     left: .4rem;
     top: -.5rem;
@@ -295,8 +299,11 @@ html,body{
     width: 4.4rem;
     height: 1.4rem;
     display: block;
-    font-size: .9rem;
+    font-size: .6rem;
     color: white;
+}
+.slide4 .info span:nth-of-type(5){
+    font-size: .54rem;
 }
 #page4 .skill{
     display: block;
@@ -321,37 +328,38 @@ html,body{
 .slide5 .experience{
     color: white;
     font-size: 0.56rem;
-    width:3.2rem;
-    height:1rem;
+    width: 3.2rem;
+    height: 1rem;
+    line-height: 0.9rem;
     text-align: center;
-    background: url('../img/icon00.png') no-repeat;
+    background: url(../img/icon00.png) no-repeat left center;
+    background-size: contain;
     position: absolute;
-    left:0;
-    top:.2rem;
-    /*display: none;*/
+    left: 0;
+    top: .2rem;
+    display: none;
 }
 .slide5 .info{
-    font-size: .5rem;
-    color: white;
-    width: 4.4rem;
-    height: 6.5rem;
-    /*text-align: center;*/
+    width: 4.2rem;
+    height: 6.4rem;
+    /* text-align: center; */
     background: rgba(0,0,0,.3);
     border-radius: .3rem;
-    padding:.5rem;
-    padding-top:1rem;
+    padding: .6rem;
     position: absolute;
     left: 0.5rem;
-    top: 2rem;
+    top: 1.8rem;
+    font-size: .44rem;
     display: none;
 }
 .slide5 .info span{
+    color:white;
     margin-bottom: .5rem;
     display: block;
 }
 .slide5 .info img{
     width: 4.6rem;
-    height: 8rem;
+    height: 7.6rem;
     position: absolute;
     left: .4rem;
     top: -.5rem;
@@ -381,20 +389,22 @@ html,body{
 .slide6 .evaluate{
     color: white;
     font-size: 0.56rem;
-    width:3.2rem;
-    height:1rem;
+    width: 3.2rem;
+    height: 1rem;
+    line-height: 0.9rem;
     text-align: center;
-    background: url('../img/icon00.png') no-repeat;
+    background: url(../img/icon00.png) no-repeat left center;
+    background-size: contain;
     position: absolute;
-    left:0;
-    top:.2rem;
+    left: 0;
+    top: .2rem;
     display: none;
 }
 .slide6 .info{
     font-size: .36rem;
     color: white;
     width: 4.0rem;
-    height: 7rem;
+    height: 6.6rem;
     /*text-align: center;*/
     background: rgba(0,0,0,.3);
     border-radius: .3rem;
@@ -406,7 +416,7 @@ html,body{
 }
 .slide6 .info img{
     width: 4.6rem;
-    height: 8rem;
+    height: 7.6rem;
     position: absolute;
     left: .4rem;
     top: -.5rem;
@@ -442,7 +452,7 @@ html,body{
     border-radius: .5rem;
     position: absolute;
     left:.5rem;
-    top:2.4rem;
+    top:1.46rem;
     opacity: 0;
 }
 .slide7 .topLeft{
