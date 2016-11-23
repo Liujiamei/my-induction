@@ -70,19 +70,23 @@ html,body{
 /*}*/
 #page1 img:nth-of-type(1){
     animation: slideInLeft 0.5s 0s both;
+    -webkit-animation: slideInLeft 0.5s 0s both;
 }
 #page1 img:nth-of-type(2){
     /*animation: fadeIn 1s 0.5s both;*/
     animation: slideInLeft 0.5s 0s both;
+    -webkit-animation: slideInLeft 0.5s 0s both;
 }
 #page1 img:nth-of-type(3),.slide1-font{
     animation: zoomInUp 1s 0.5s both;
+    -webkit-animation: zoomInUp 1s 0.5s both;
 }
 #page1 .slide1-font{
     /*opacity: 1;*/
     display: block;
     transition: display 1s 1s;
     animation: zoomInUp 1s 1s both;
+    -webkit-animation: zoomInUp 1s 1s both;
 }
 
 
@@ -155,37 +159,44 @@ html,body{
     display: block;
     transition: display 1s ;
     animation:bounceInLeft 1s both;
+    -webkit-animation:bounceInLeft 1s both;
 }
 #page2 .con li img{
     opacity: 1;
     transition: opacity .5s .5s;
     animation: fadeInLeft .5s 0s, shake .5s 0s ;
+    -webkit-animation: fadeInLeft .5s 0s, shake .5s 0s ;
 }
 #page2 .con li:nth-of-type(1) span{
     opacity: 1;
     transition: opacity .25s .5s;
     /*animation: lightSpeedIn .5s .5s ,rotateIn 1s .75s ;*/
     animation: slideInLeft .25s .5s  ;
+    -webkit-animation: slideInLeft .25s .5s  ;
 }
 #page2 .con li:nth-of-type(2) span{
     opacity: 1;
     transition: opacity .25s 0.75s;
-    animation: slideInLeft .25s 0.75s  ;
+    animation: slideInLeft .25s 0.75s ;
+    -webkit-animation: slideInLeft .25s 0.75s ;
 }
 #page2 .con li:nth-of-type(3) span{
     opacity: 1;
     transition: opacity .25s 1s;
     animation: slideInLeft .25s 1s  ;
+    -webkit-animation: slideInLeft .25s 1s  ;
 }
 #page2 .con li:nth-of-type(4) span{
     opacity: 1;
     transition: opacity .25s 1.25s;
     animation: slideInLeft .25s 1.25s  ;
+    -webkit-animation: slideInLeft .25s 1.25s  ;
 }
 #page2 .con li:nth-of-type(5) span{
     opacity: 1;
     transition: opacity .25s 1.5s;
     animation: slideInLeft .25s  1.5s  ;
+    -webkit-animation: slideInLeft .25s  1.5s  ;
 }
 /*3-技能水平*/
 .slide3 .skill{
@@ -231,18 +242,21 @@ html,body{
     display: block;
     transition: display 1s ;
     animation:bounceInLeft 1s both;
+    -webkit-animation:bounceInLeft 1s both;
 }
 #page3 .info{
     display: block;
     transition: display 1s ;
     /*animation:rubberBand 1s both;*/
     animation:slideInDown 1s both;
+    -webkit-animation:slideInDown 1s both;
 }
 #page3 .info img{
     display: block;
     transition: display 1s ;
     /*animation: zoomInDown 1s both;*/
     animation: slideInDown 1s both;
+    -webkit-animation: slideInDown 1s both;
 }
 /*3-2*/
 .slide4 .skill{
@@ -287,19 +301,21 @@ html,body{
 #page4 .skill{
     display: block;
     transition: display 1s ;
-    animation:bounceInLeft 1s both;
+    -webkit-animation:bounceInLeft 1s both;
 }
 #page4 .info{
     display: block;
     transition: display 1s ;
     /*animation:rubberBand 1s both;*/
     animation:slideInDown 1s both;
+    -webkit-animation:slideInDown 1s both;
 }
 #page4 .info img{
     display: block;
     transition: display 1s ;
     /*animation: zoomInDown 1s both;*/
     animation: slideInDown 1s both;
+    -webkit-animation: slideInDown 1s both;
 }
 /*4-工作经历*/
 .slide5 .experience{
@@ -345,18 +361,21 @@ html,body{
     display: block;
     transition: display 1s ;
     animation:bounceInLeft 1s both;
+    -webkit-animation:bounceInLeft 1s both;
 }
 #page5 .info{
     display: block;
     transition: display 1s ;
     /*animation:rubberBand 1s both;*/
     animation:slideInDown 1s both;
+    -webkit-animation:slideInDown 1s both;
 }
 #page5 .info img{
     display: block;
     transition: display 1s ;
     /*animation: zoomInDown 1s both;*/
     animation: slideInDown 1s both;
+    -webkit-animation: slideInDown 1s both;
 }
 /*5-自我评价*/
 .slide6 .evaluate{
@@ -397,18 +416,21 @@ html,body{
     display: block;
     transition: display 1s ;
     animation:bounceInLeft 1s both;
+    -webkit-animation:bounceInLeft 1s both;
 }
 #page6 .info{
     display: block;
     transition: display 1s ;
     /*animation:rubberBand 1s both;*/
     animation:slideInDown 1s both;
+    -webkit-animation:slideInDown 1s both;
 }
 #page6 .info img{
     display: block;
     transition: display 1s ;
     /*animation: zoomInDown 1s both;*/
     animation: slideInDown 1s both;
+    -webkit-animation: slideInDown 1s both;
 }
 
 
@@ -503,22 +525,27 @@ html,body{
     opacity:1;
     transition: opacity 1s ;
     animation: bounceInUp1s;
+    -webkit-animation: bounceInUp1s;
 }
 #page7 .bottom .topLeft,#page7 .bottom .topRight{
     opacity:1;
     transition: opacity 1s ;
     animation: bounceInDown 1s ;
+    -webkit-animation: bounceInDown 1s ;
 }
 #page7 .bottom div.info span{
     display:block;
     transition: display .5s 1s;
     animation:rotateInDownLeft .5s 1s both;
+    -webkit-animation:rotateInDownLeft .5s 1s both;
 }
 #page7 .bottom div.info span.phone{
     transition: display .5s 1.5s;
     animation:rotateInDownLeft .5s 1.5s both;
+    -webkit-animation:rotateInDownLeft .5s 1.5s both;
 }
 #page7 .bottom div.info span.github{
     transition: display .5s 2s;
     animation:rotateInDownLeft .5s 2s both;
+    -webkit-animation:rotateInDownLeft .5s 2s both;
 }
