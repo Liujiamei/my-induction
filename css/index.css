@@ -40,11 +40,11 @@ html,body{
     z-index: -1;
 }
 .slide1 img:nth-of-type(3){
-    width: 4.25rem;
+    width: 4.21rem;
     height: 4.21rem;
     position: absolute;
     left:0.24rem;
-    bottom: 0.8rem;
+    bottom: 0.76rem;
 }
 .slide1 .slide1-font{
     width: 2.20rem;
