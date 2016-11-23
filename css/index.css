@@ -52,7 +52,7 @@ html,body{
     font-size: .45rem;
     position: absolute;
     left: 1.25rem;
-    bottom: 3.99rem;
+    bottom: 2.39rem;
     text-align: center;
     /*opacity: 0;*/
     display: none;
@@ -401,14 +401,14 @@ html,body{
     display: none;
 }
 .slide6 .info{
-    font-size: .32rem;
+    font-size: .36rem;
     color: white;
-    width: 4.0rem;
-    height: 6rem;
+    width: 4.2rem;
+    height: 6.4rem;
     /* text-align: center; */
     background: rgba(0,0,0,.3);
     border-radius: .3rem;
-    padding: .5rem .7rem;
+    padding: .6rem;
     position: absolute;
     left: 0.5rem;
     top: 1.8rem;
@@ -416,7 +416,7 @@ html,body{
 }
 .slide6 .info img{
     width: 4.6rem;
-    height: 7rem;
+    height: 7.6rem;
     position: absolute;
     left: .4rem;
     top: -.5rem;
