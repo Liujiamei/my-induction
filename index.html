@@ -11,8 +11,10 @@
 </head>
 <body>
 <section class="main">
-    <div class="music"> <!--有一个音乐按钮-->
-        <audio src="audio/moumoon%20-%20Sunshine%20Girl.mp3" loop preload="none" id="cara">  <!--歌曲-->
+    <!--有一个音乐按钮-->
+    <div class="music">
+        <!--音乐-->
+        <audio src="audio/moumoon%20-%20Sunshine%20Girl.mp3" loop preload="none" id="mus">  <!--歌曲-->
             <!--
             loop:循环播放
             preload:none 不提前进行预加载
@@ -157,27 +159,27 @@
     })
     /*播放音乐*/
     var music=document.querySelector('.music');
-    var cara=document.querySelector('#cara');
+    var mus=document.querySelector('#mus');
     window.setTimeout(function(){
         //等1s后播放音乐，但必须等缓存后才会有声音，这时才让音乐按钮图片旋转
         //canplay用来检测是否有声音
-        cara.play();
-        cara.addEventListener("canplay",function(){
+        mus.play();
+        mus.addEventListener("canplay",function(){
             music.className="music musicCur";
         },false);
     },1000);
     music.addEventListener("click",function(){
         //paused判断音频文件是播放还是停止,若为停止，则点击后播放音乐，并让音乐按钮图片旋转；若为播放，则点击后让音乐停止，并停止音乐按钮图片的旋转
         //播放音频：play() 让音频文件停止播放：pause()
-        if(cara.paused){
-            cara.play();
+        if(mus.paused){ //点击后播放
+            mus.play();
             music.className="music musicCur";
 //            music.classList.add="musicCur";
-        }else{
-            cara.pause();
+        }else{ //点击后暂停
+            mus.pause();
 //            music.classList.remove="musicCur";
-            music.className="music";
-            music.style.opacity=1;
+            music.className="music pause";
+//            music.style.opacity=1;
         }
     });
 
