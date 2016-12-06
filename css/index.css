@@ -424,7 +424,7 @@ html,body{
     display: none;
 }
 .slide6 .info{
-    font-size: .36rem;
+    font-size: .4rem;
     color: white;
     width: 4.2rem;
     height: 6.4rem;
@@ -538,14 +538,14 @@ html,body{
 .slide7 .bottom div.info span em{
     width:.5rem;
     height:.5rem;
-    background: url('../img/icon0_11.png') no-repeat center ;
+    background: url('../img/icon0_14.png') no-repeat center ;
     background-size: contain;
     position: absolute;
     left:0;
     top:0;
 }
 .slide7 .bottom  div.info  span.phone  em{
-    background-image: url('../img/icon0_14.png');
+    background-image: url('../img/icon0_11.png');
     left:0;
     top:0;
 }
