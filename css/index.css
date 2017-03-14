@@ -58,7 +58,7 @@ html,body{
     width: 7.7rem;
     height: 7.7rem;
     position: absolute;
-    left: .5rem;
+    left: .05rem;
     top: -.46rem;
     z-index: -1;
 }
