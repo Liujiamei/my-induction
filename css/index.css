@@ -258,9 +258,9 @@ html,body{
 }
 .slide3 .info span{
     width: 4.4rem;
-    height: 1.68rem;
+    height: 0.88rem;
     display: block;
-    font-size: .7rem;
+    font-size: .6rem;
     color: white;
 }
 #page3 .skill{
@@ -284,7 +284,7 @@ html,body{
     -webkit-animation: slideInDown 1s both;
 }
 /*3-2*/
-.slide4 .skill{
+/*.slide4 .skill{
     color: white;
     font-size: 0.56rem;
     width: 3.2rem;
@@ -336,6 +336,67 @@ html,body{
 #page4 .info{
     display: block;
     transition: display 1s ;
+    !*animation:rubberBand 1s both;*!
+    animation:slideInDown 1s both;
+    -webkit-animation:slideInDown 1s both;
+}
+#page4 .info img{
+    display: block;
+    transition: display 1s ;
+    !*animation: zoomInDown 1s both;*!
+    animation: slideInDown 1s both;
+    -webkit-animation: slideInDown 1s both;
+}*/
+/*4-工作经历*/
+.slide4 .experience{
+    color: white;
+    font-size: 0.56rem;
+    width: 3.2rem;
+    height: 1rem;
+    line-height: 0.9rem;
+    text-align: center;
+    background: url(../img/icon00.png) no-repeat left center;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: .2rem;
+    display: none;
+}
+.slide4 .info{
+    width: 4.2rem;
+    height: 6.4rem;
+    /* text-align: center; */
+    background: rgba(0,0,0,.3);
+    border-radius: .3rem;
+    padding: .6rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 1.8rem;
+    font-size: .40rem;
+    display: none;
+}
+.slide4 .info span{
+    color:white;
+    margin-bottom: .5rem;
+    display: block;
+}
+.slide4 .info img{
+    width: 4.6rem;
+    height: 7.6rem;
+    position: absolute;
+    left: .4rem;
+    top: -.5rem;
+    display: none;
+}
+#page4 .experience{
+    display: block;
+    transition: display 1s ;
+    animation:bounceInLeft 1s both;
+    -webkit-animation:bounceInLeft 1s both;
+}
+#page4 .info{
+    display: block;
+    transition: display 1s ;
     /*animation:rubberBand 1s both;*/
     animation:slideInDown 1s both;
     -webkit-animation:slideInDown 1s both;
@@ -347,8 +408,8 @@ html,body{
     animation: slideInDown 1s both;
     -webkit-animation: slideInDown 1s both;
 }
-/*4-工作经历*/
-.slide5 .experience{
+/*5-自我评价*/
+.slide5 .evaluate{
     color: white;
     font-size: 0.56rem;
     width: 3.2rem;
@@ -363,6 +424,8 @@ html,body{
     display: none;
 }
 .slide5 .info{
+    font-size: .35rem;
+    color: white;
     width: 4.2rem;
     height: 6.4rem;
     /* text-align: center; */
@@ -372,13 +435,7 @@ html,body{
     position: absolute;
     left: 0.5rem;
     top: 1.8rem;
-    font-size: .44rem;
     display: none;
-}
-.slide5 .info span{
-    color:white;
-    margin-bottom: .5rem;
-    display: block;
 }
 .slide5 .info img{
     width: 4.6rem;
@@ -388,7 +445,7 @@ html,body{
     top: -.5rem;
     display: none;
 }
-#page5 .experience{
+#page5 .evaluate{
     display: block;
     transition: display 1s ;
     animation:bounceInLeft 1s both;
@@ -408,67 +465,10 @@ html,body{
     animation: slideInDown 1s both;
     -webkit-animation: slideInDown 1s both;
 }
-/*5-自我评价*/
-.slide6 .evaluate{
-    color: white;
-    font-size: 0.56rem;
-    width: 3.2rem;
-    height: 1rem;
-    line-height: 0.9rem;
-    text-align: center;
-    background: url(../img/icon00.png) no-repeat left center;
-    background-size: contain;
-    position: absolute;
-    left: 0;
-    top: .2rem;
-    display: none;
-}
-.slide6 .info{
-    font-size: .35rem;
-    color: white;
-    width: 4.2rem;
-    height: 6.4rem;
-    /* text-align: center; */
-    background: rgba(0,0,0,.3);
-    border-radius: .3rem;
-    padding: .6rem;
-    position: absolute;
-    left: 0.5rem;
-    top: 1.8rem;
-    display: none;
-}
-.slide6 .info img{
-    width: 4.6rem;
-    height: 7.6rem;
-    position: absolute;
-    left: .4rem;
-    top: -.5rem;
-    display: none;
-}
-#page6 .evaluate{
-    display: block;
-    transition: display 1s ;
-    animation:bounceInLeft 1s both;
-    -webkit-animation:bounceInLeft 1s both;
-}
-#page6 .info{
-    display: block;
-    transition: display 1s ;
-    /*animation:rubberBand 1s both;*/
-    animation:slideInDown 1s both;
-    -webkit-animation:slideInDown 1s both;
-}
-#page6 .info img{
-    display: block;
-    transition: display 1s ;
-    /*animation: zoomInDown 1s both;*/
-    animation: slideInDown 1s both;
-    -webkit-animation: slideInDown 1s both;
-}
 
 
 /*6-联系方式*/
-.slide7 .bottom{
+.slide6 .bottom{
     width:5.4rem;
     height:8rem;
     background: rgba(255,255,255,.58);
@@ -478,7 +478,7 @@ html,body{
     top:1.46rem;
     opacity: 0;
 }
-.slide7 .topLeft{
+.slide6 .topLeft{
     width:1rem;
     height:3rem;
     background: #e79747;
@@ -490,7 +490,7 @@ html,body{
     opacity: 0;
 
 }
-.slide7 .topRight{
+.slide6 .topRight{
     width:1rem;
     height:3rem;
     background: #e79747;
@@ -501,7 +501,7 @@ html,body{
     top:-2.4rem;
     opacity: 0;
 }
-.slide7 .topLeft del,.slide7 .topRight del{
+.slide6 .topLeft del,.slide6 .topRight del{
     width:.6rem;
     height:.6rem;
     background: #608784;
@@ -511,14 +511,14 @@ html,body{
     left:.2rem;
     bottom:.2rem;
 }
-.slide7 .bottom .gitLink{
+.slide6 .bottom .gitLink{
     width: 4rem;
     height: 4rem;
     position: absolute;
     left: .75rem;
     top: .48rem;
 }
-.slide7 .bottom div.info{
+.slide6 .bottom div.info{
     width: 5rem;
     height: 3.2rem;
     font-size: .4rem;
@@ -528,14 +528,14 @@ html,body{
     top: 4.4rem;
 
 }
-.slide7 .bottom div.info span{
+.slide6 .bottom div.info span{
     display:none;
     position: relative;
     /*padding:.4rem 0 0 .6rem*/
     /*padding-left:.6rem;*/
     /*margin-top: .5rem;*/
 }
-.slide7 .bottom div.info span em{
+.slide6 .bottom div.info span em{
     width:.5rem;
     height:.5rem;
     background: url('../img/icon0_14.png') no-repeat center ;
@@ -544,40 +544,40 @@ html,body{
     left:0;
     top:0;
 }
-.slide7 .bottom  div.info  span.phone  em{
+.slide6 .bottom  div.info  span.phone  em{
     background-image: url('../img/icon0_11.png');
     left:0;
     top:0;
 }
-.slide7 .bottom div.info span.github em{
+.slide6 .bottom div.info span.github em{
     background-image:  url('../img/github.png');
     left:0;
     top:0;
 }
-#page7 .bottom{
+#page6 .bottom{
     opacity:1;
     transition: opacity 1s ;
     animation: bounceInUp1s;
     -webkit-animation: bounceInUp1s;
 }
-#page7 .bottom .topLeft,#page7 .bottom .topRight{
+#page6 .bottom .topLeft,#page6 .bottom .topRight{
     opacity:1;
     transition: opacity 1s ;
     animation: bounceInDown 1s ;
     -webkit-animation: bounceInDown 1s ;
 }
-#page7 .bottom div.info span{
+#page6 .bottom div.info span{
     display:block;
     transition: display .5s 1s;
     animation:rotateInDownLeft .5s 1s both;
     -webkit-animation:rotateInDownLeft .5s 1s both;
 }
-#page7 .bottom div.info span.phone{
+#page6 .bottom div.info span.phone{
     transition: display .5s 1.5s;
     animation:rotateInDownLeft .5s 1.5s both;
     -webkit-animation:rotateInDownLeft .5s 1.5s both;
 }
-#page7 .bottom div.info span.github{
+#page6 .bottom div.info span.github{
     transition: display .5s 2s;
     animation:rotateInDownLeft .5s 2s both;
     -webkit-animation:rotateInDownLeft .5s 2s both;
